@@ -1,7 +1,9 @@
-# k3s_vagrant_libvirt_ansible
+# kuma_on_k3s_vagrant_libvirt_ansible
 
 Vagrant-libvirt setup that creates a VM with [k3s](https://k3s.io/), the minimal
 lightweight Kubernetes distribution.
+
+Ansible installs [kuma](https://kuma.io/) as a service mesh inside the cluster.
 
 Default OS is openSUSE Leap 15.6, but that can be changed in the Vagrantfile.
 Please be aware, that this might break the Ansible provisioning.
